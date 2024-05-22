@@ -1,0 +1,102 @@
+body
+{
+    background-color: #ec8fd7;
+    margin: 0;
+    
+}
+.form
+{
+    width:400px;
+    height:510px;
+    background:blueviolet;
+    border-radius:8px;
+    box-shadow:5px 10px ;
+    margin:calc(50vh - 220px) auto;
+    padding:20px 30px;
+    max-width:calc(100vw - 40px);
+    box-sizing:border-box;
+    border: 1px solid rgb(54, 9, 9);
+    font-family:'Montserrat',sans-serif;
+    position:relative
+}
+h2
+{
+    margin: 10px;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 40px;
+    padding-bottom: 10px;
+    width:180px ;
+    color: black; 
+    text-align: center;
+    border-bottom: 3px;
+    /* color: blue; */  
+}
+input{
+    padding-right: 5px;
+    text-align:left;
+    width:100%;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    font-family:'Montserrat',sans-serif;
+    border-bottom:2px ;
+    border: 1px solid red;
+}
+Name
+{
+    content:attr(type);
+    display:block;
+    margin:28px 0 0;
+    font-size:14px;
+    color: #000;
+}
+/* Email
+{
+    content:attr(type);
+    display:block;
+    margin:28px 0 0;
+    font-size:14px;
+    color: #000;
+} */
+button
+{
+    position:relative;
+    margin: 10px;
+    padding-right: 30px;
+    /* padding: 0 20px; */
+    text-align:center;
+    text-decoration: none;
+    border-color:blue;
+    border-radius: 5px;
+    font: bold 12px/25px Arial, sans-serif; 
+    width: 150px;
+    height: 40px;
+    float:right;
+    
+}
+button:hover{
+    background:#c5aa15;
+    color:#5f0606
+}
+div{
+    position:absolute;
+    /* bottom: 5px; */
+     bottom:-15px; 
+    right:-20px;
+    /* right: 10px; */
+    background:rgb(100, 3, 82);
+    color:black;
+    width:300px;
+    padding:14px 4px 14px 0;
+    border-radius:4px;
+    font-size:15px;
+    box-shadow:10px 10px 40px -14px #000
+    opacity=.6;
+}
+span{
+    margin:0 5px 0 15px;
+}
+
+
+
+
